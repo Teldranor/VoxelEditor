@@ -1,0 +1,71 @@
+<Root>
+    <Ridge>1</Ridge>
+    <Materials>
+        <Material id="0">
+            <Ambient r="0.1" g="0.18725" b="0.1745"/>
+            <Diffuse r="0.396" g="0.74151" b="0.69102"/>
+            <Specular r="0.297254" g="0.30829" b="0.306678"/>
+            <Other s="0.1" a="1"/>
+        </Material>
+    </Materials>
+    <Vertices size="24">
+        <Vertex id="0" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="1" x="0.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="2" x="0.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="3" x="-0.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="4" x="-0.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="5" x="0.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="6" x="0.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="7" x="-0.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="8" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="9" x="0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="10" x="0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="11" x="-0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="12" x="-0.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="13" x="0.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="14" x="0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="15" x="-0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="16" x="-0.5" y="-0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="17" x="-0.5" y="-0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="18" x="-0.5" y="0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="19" x="-0.5" y="0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="20" x="0.5" y="-0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="21" x="0.5" y="-0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="22" x="0.5" y="0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="23" x="0.5" y="0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+    </Vertices>
+    <Cubes>
+        <Cube id="0" material="0">
+            <Vertex location="0" id="0"/>
+            <Vertex location="1" id="1"/>
+            <Vertex location="2" id="2"/>
+            <Vertex location="3" id="3"/>
+            <Vertex location="4" id="4"/>
+            <Vertex location="5" id="5"/>
+            <Vertex location="6" id="6"/>
+            <Vertex location="7" id="7"/>
+            <Vertex location="8" id="8"/>
+            <Vertex location="9" id="9"/>
+            <Vertex location="10" id="10"/>
+            <Vertex location="11" id="11"/>
+            <Vertex location="12" id="12"/>
+            <Vertex location="13" id="13"/>
+            <Vertex location="14" id="14"/>
+            <Vertex location="15" id="15"/>
+            <Vertex location="16" id="16"/>
+            <Vertex location="17" id="17"/>
+            <Vertex location="18" id="18"/>
+            <Vertex location="19" id="19"/>
+            <Vertex location="20" id="20"/>
+            <Vertex location="21" id="21"/>
+            <Vertex location="22" id="22"/>
+            <Vertex location="23" id="23"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+    </Cubes>
+</Root>

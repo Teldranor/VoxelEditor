@@ -1,0 +1,3 @@
+<Root>
+    <Scene xml="MyScene.xml" entry="true"/>
+</Root>

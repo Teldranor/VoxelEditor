@@ -1,0 +1,81 @@
+<Root>
+    <GameObject name="Field" tag="None">
+        <Position xpos="0" ypos="0" zpos="0"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1" yscale="1" zscale="1"/>
+        <Component component="CubeModel" model="field.xml"/>
+    </GameObject>
+    <GameObject name="Sun" tag="None">
+        <Position xpos="0" ypos="0" zpos="0"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1" yscale="1" zscale="1"/>
+        <Component component="DirLight">
+            <Direction x="0" y="-1" z="0"/>
+            <Ambient r="0.3" g="0.3" b="0.3"/>
+            <Diffuse r="0.4" g="0.4" b="0.4"/>
+            <Specular r="0" g="0" b="0"/>
+        </Component>
+    </GameObject>
+    <GameObject name="PointLight" tag="None">
+        <Position xpos="-8" ypos="3" zpos="-4"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1" yscale="1" zscale="1"/>
+        <Component component="CubeModel" model="Cube.xml"/>
+        <Component component="PointLight" id="0">
+            <Ambient r="1" g="1" b="1"/>
+            <Diffuse r="1" g="1" b="1"/>
+            <Specular r="0" g="0" b="0"/>
+            <Attenuation constant="1" linear="0.09" quadratic="0.032"/>
+        </Component>
+    </GameObject>
+    <GameObject name="Cat1" tag="None">
+        <Position xpos="0.3" ypos="0.02" zpos="-0.3"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="10" yscale="10" zscale="10"/>
+        <Component component="CubeModel" model="cat.xml"/>
+    </GameObject>
+    <GameObject name="Cat2" tag="None">
+        <Position xpos="-0.4" ypos="0.02" zpos="-3"/>
+        <Rotation xrot="0" yrot="1" zrot="0"/>
+        <Scale xscale="3" yscale="3" zscale="3"/>
+        <Component component="CubeModel" model="cat.xml"/>
+    </GameObject>
+    <GameObject name="Cat3" tag="None">
+        <Position xpos="1" ypos="0.02" zpos="0"/>
+        <Rotation xrot="0" yrot="2" zrot="0"/>
+        <Scale xscale="7" yscale="7" zscale="7"/>
+        <Component component="CubeModel" model="cat.xml"/>
+    </GameObject>
+    <GameObject name="Light" tag="None">
+        <Position xpos="0" ypos="0" zpos="-3"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1.5" yscale="1.5" zscale="1.5"/>
+        <Component component="CubeModel" model="light.xml"/>
+        <Child name="SpotLight" tag="None">
+            <Position xpos="0" ypos="4.85" zpos="-1.2"/>
+            <Rotation xrot="0" yrot="0" zrot="0"/>
+            <Scale xscale="1" yscale="1" zscale="1"/>
+            <Component component="SpotLight" id="0">
+                <Direction x="0.0" y="-1.0" z="0.0"/>
+                <Ambient r="1" g="1" b="1"/>
+                <Diffuse r="1" g="1" b="1"/>
+                <Specular r="0.0" g="0.0" b="0.0"/>
+                <Attenuation constant="1" linear="0.09" quadratic="0.032"/>
+                <Angle cutOff="0.92" outerCutOff="0.90"/>
+            </Component>
+        </Child>
+    </GameObject>
+    <GameObject name="MenuHandler" tag="None">
+        <Position xpos="0" ypos="0" zpos="0"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1" yscale="1" zscale="1"/>
+        <Component component="Script" script="MenuHandler"/>
+    </GameObject>
+    <GameObject name="MainCameraBinding" tag="None">
+        <Position xpos="0" ypos="1.8" zpos="-10"/>
+        <Rotation xrot="0" yrot="0" zrot="0"/>
+        <Scale xscale="1" yscale="1" zscale="1"/>
+        <Component component="Script" script="CameraFPS"/>
+        <Component component="Camera" main="true"/>
+    </GameObject>
+</Root>

@@ -1,0 +1,3 @@
+<Root>
+    <Shader name="myShader" vs="Shader/cubeShader.vs" fs="Shader/cubeShader.fs" default="true"/>
+</Root>

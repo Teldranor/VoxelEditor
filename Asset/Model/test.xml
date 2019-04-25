@@ -1,0 +1,365 @@
+<Root>
+    <Ridge>1</Ridge>
+    <Materials>
+        <Material id="0">
+            <Ambient r="0" g="1" b="0"/>
+            <Diffuse r="0" g="1" b="0"/>
+            <Specular r="0" g="1" b="0"/>
+            <Other s="32" a="1"/>
+        </Material>
+        <Material id="1">
+            <Ambient r="0.1" g="0.18725" b="0.1745"/>
+            <Diffuse r="0.396" g="0.74151" b="0.69102"/>
+            <Specular r="0.297254" g="0.30829" b="0.306678"/>
+            <Other s="12.8" a="1"/>
+        </Material>
+    </Materials>
+    <Vertices size="120">
+        <Vertex id="0" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="1" x="0.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="2" x="0.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="3" x="-0.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="4" x="-0.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="5" x="0.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="6" x="0.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="7" x="-0.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="8" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="9" x="0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="10" x="0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="11" x="-0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="12" x="-0.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="13" x="0.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="14" x="0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="15" x="-0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="16" x="-0.5" y="-0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="17" x="-0.5" y="-0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="18" x="-0.5" y="0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="19" x="-0.5" y="0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="20" x="0.5" y="-0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="21" x="0.5" y="-0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="22" x="0.5" y="0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="23" x="0.5" y="0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="24" x="-0.5" y="0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="25" x="0.5" y="0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="26" x="0.5" y="0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="27" x="-0.5" y="0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="28" x="-0.5" y="1.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="29" x="0.5" y="1.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="30" x="0.5" y="1.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="31" x="-0.5" y="1.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="32" x="0.5" y="1.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="33" x="-0.5" y="1.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="34" x="-0.5" y="1.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="35" x="0.5" y="1.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="36" x="-0.5" y="1.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="37" x="-0.5" y="1.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="38" x="0.5" y="1.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="39" x="0.5" y="1.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="40" x="-0.5" y="-1.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="41" x="0.5" y="-1.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="42" x="0.5" y="-1.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="43" x="-0.5" y="-1.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="44" x="-0.5" y="-0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="45" x="0.5" y="-0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="46" x="0.5" y="-0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="47" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="48" x="-0.5" y="-1.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="49" x="0.5" y="-1.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="50" x="0.5" y="-1.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="51" x="-0.5" y="-1.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="52" x="-0.5" y="-1.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="53" x="-0.5" y="-1.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="54" x="0.5" y="-1.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="55" x="0.5" y="-1.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="56" x="1.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="57" x="1.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="58" x="1.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="59" x="1.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="60" x="1.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="61" x="1.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="62" x="1.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="63" x="1.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="64" x="0.5" y="-0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="65" x="0.5" y="-0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="66" x="0.5" y="0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="67" x="0.5" y="0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="68" x="1.5" y="-0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="69" x="1.5" y="-0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="70" x="1.5" y="0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="71" x="1.5" y="0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="72" x="-1.5" y="-0.5" z="-0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="73" x="-1.5" y="-0.5" z="0.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="74" x="-1.5" y="0.5" z="0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="75" x="-1.5" y="0.5" z="-0.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="76" x="-1.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="77" x="-1.5" y="0.5" z="-0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="78" x="-1.5" y="0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="79" x="-1.5" y="-0.5" z="0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="80" x="-1.5" y="-0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="81" x="-1.5" y="-0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="82" x="-1.5" y="0.5" z="0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="83" x="-1.5" y="0.5" z="-0.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="84" x="-0.5" y="-0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="85" x="-0.5" y="-0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="86" x="-0.5" y="0.5" z="0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="87" x="-0.5" y="0.5" z="-0.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="88" x="-0.5" y="-0.5" z="-1.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="89" x="0.5" y="-0.5" z="-1.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="90" x="0.5" y="0.5" z="-1.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="91" x="-0.5" y="0.5" z="-1.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="92" x="-0.5" y="-0.5" z="-1.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="93" x="0.5" y="-0.5" z="-1.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="94" x="0.5" y="0.5" z="-1.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="95" x="-0.5" y="0.5" z="-1.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="96" x="-0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="97" x="0.5" y="0.5" z="-0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="98" x="0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="99" x="-0.5" y="-0.5" z="-0.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="100" x="-0.5" y="-0.5" z="-1.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="101" x="-0.5" y="0.5" z="-1.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="102" x="0.5" y="-0.5" z="-1.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="103" x="0.5" y="0.5" z="-1.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="104" x="0.5" y="-0.5" z="1.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="105" x="-0.5" y="-0.5" z="1.5" nx="0" ny="-1" nz="0"/>
+        <Vertex id="106" x="-0.5" y="0.5" z="1.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="107" x="0.5" y="0.5" z="1.5" nx="0" ny="1" nz="0"/>
+        <Vertex id="108" x="-0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="109" x="0.5" y="-0.5" z="0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="110" x="0.5" y="0.5" z="0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="111" x="-0.5" y="0.5" z="0.5" nx="0" ny="0" nz="-1"/>
+        <Vertex id="112" x="-0.5" y="0.5" z="1.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="113" x="0.5" y="0.5" z="1.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="114" x="0.5" y="-0.5" z="1.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="115" x="-0.5" y="-0.5" z="1.5" nx="0" ny="0" nz="1"/>
+        <Vertex id="116" x="-0.5" y="-0.5" z="1.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="117" x="-0.5" y="0.5" z="1.5" nx="-1" ny="0" nz="0"/>
+        <Vertex id="118" x="0.5" y="-0.5" z="1.5" nx="1" ny="0" nz="0"/>
+        <Vertex id="119" x="0.5" y="0.5" z="1.5" nx="1" ny="0" nz="0"/>
+    </Vertices>
+    <Cubes>
+        <Cube id="0" material="0">
+            <Vertex location="0" id="0"/>
+            <Vertex location="1" id="1"/>
+            <Vertex location="2" id="2"/>
+            <Vertex location="3" id="3"/>
+            <Vertex location="4" id="4"/>
+            <Vertex location="5" id="5"/>
+            <Vertex location="6" id="6"/>
+            <Vertex location="7" id="7"/>
+            <Vertex location="8" id="8"/>
+            <Vertex location="9" id="9"/>
+            <Vertex location="10" id="10"/>
+            <Vertex location="11" id="11"/>
+            <Vertex location="12" id="12"/>
+            <Vertex location="13" id="13"/>
+            <Vertex location="14" id="14"/>
+            <Vertex location="15" id="15"/>
+            <Vertex location="16" id="16"/>
+            <Vertex location="17" id="17"/>
+            <Vertex location="18" id="18"/>
+            <Vertex location="19" id="19"/>
+            <Vertex location="20" id="20"/>
+            <Vertex location="21" id="21"/>
+            <Vertex location="22" id="22"/>
+            <Vertex location="23" id="23"/>
+            <SideCube location="0" id="5"/>
+            <SideCube location="1" id="6"/>
+            <SideCube location="2" id="2"/>
+            <SideCube location="3" id="1"/>
+            <SideCube location="4" id="3"/>
+            <SideCube location="5" id="4"/>
+        </Cube>
+        <Cube id="1" material="1">
+            <Vertex location="0" id="24"/>
+            <Vertex location="1" id="25"/>
+            <Vertex location="2" id="26"/>
+            <Vertex location="3" id="27"/>
+            <Vertex location="4" id="28"/>
+            <Vertex location="5" id="29"/>
+            <Vertex location="6" id="30"/>
+            <Vertex location="7" id="31"/>
+            <Vertex location="8" id="11"/>
+            <Vertex location="9" id="10"/>
+            <Vertex location="10" id="32"/>
+            <Vertex location="11" id="33"/>
+            <Vertex location="12" id="34"/>
+            <Vertex location="13" id="35"/>
+            <Vertex location="14" id="13"/>
+            <Vertex location="15" id="12"/>
+            <Vertex location="16" id="19"/>
+            <Vertex location="17" id="18"/>
+            <Vertex location="18" id="36"/>
+            <Vertex location="19" id="37"/>
+            <Vertex location="20" id="23"/>
+            <Vertex location="21" id="22"/>
+            <Vertex location="22" id="38"/>
+            <Vertex location="23" id="39"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="0"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+        <Cube id="2" material="1">
+            <Vertex location="0" id="40"/>
+            <Vertex location="1" id="41"/>
+            <Vertex location="2" id="42"/>
+            <Vertex location="3" id="43"/>
+            <Vertex location="4" id="44"/>
+            <Vertex location="5" id="45"/>
+            <Vertex location="6" id="46"/>
+            <Vertex location="7" id="47"/>
+            <Vertex location="8" id="48"/>
+            <Vertex location="9" id="49"/>
+            <Vertex location="10" id="9"/>
+            <Vertex location="11" id="8"/>
+            <Vertex location="12" id="15"/>
+            <Vertex location="13" id="14"/>
+            <Vertex location="14" id="50"/>
+            <Vertex location="15" id="51"/>
+            <Vertex location="16" id="52"/>
+            <Vertex location="17" id="53"/>
+            <Vertex location="18" id="17"/>
+            <Vertex location="19" id="16"/>
+            <Vertex location="20" id="54"/>
+            <Vertex location="21" id="55"/>
+            <Vertex location="22" id="21"/>
+            <Vertex location="23" id="20"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="0"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+        <Cube id="3" material="1">
+            <Vertex location="0" id="1"/>
+            <Vertex location="1" id="56"/>
+            <Vertex location="2" id="57"/>
+            <Vertex location="3" id="2"/>
+            <Vertex location="4" id="5"/>
+            <Vertex location="5" id="58"/>
+            <Vertex location="6" id="59"/>
+            <Vertex location="7" id="6"/>
+            <Vertex location="8" id="9"/>
+            <Vertex location="9" id="60"/>
+            <Vertex location="10" id="61"/>
+            <Vertex location="11" id="10"/>
+            <Vertex location="12" id="13"/>
+            <Vertex location="13" id="62"/>
+            <Vertex location="14" id="63"/>
+            <Vertex location="15" id="14"/>
+            <Vertex location="16" id="64"/>
+            <Vertex location="17" id="65"/>
+            <Vertex location="18" id="66"/>
+            <Vertex location="19" id="67"/>
+            <Vertex location="20" id="68"/>
+            <Vertex location="21" id="69"/>
+            <Vertex location="22" id="70"/>
+            <Vertex location="23" id="71"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="0"/>
+        </Cube>
+        <Cube id="4" material="1">
+            <Vertex location="0" id="72"/>
+            <Vertex location="1" id="0"/>
+            <Vertex location="2" id="3"/>
+            <Vertex location="3" id="73"/>
+            <Vertex location="4" id="74"/>
+            <Vertex location="5" id="4"/>
+            <Vertex location="6" id="7"/>
+            <Vertex location="7" id="75"/>
+            <Vertex location="8" id="76"/>
+            <Vertex location="9" id="8"/>
+            <Vertex location="10" id="11"/>
+            <Vertex location="11" id="77"/>
+            <Vertex location="12" id="78"/>
+            <Vertex location="13" id="12"/>
+            <Vertex location="14" id="15"/>
+            <Vertex location="15" id="79"/>
+            <Vertex location="16" id="80"/>
+            <Vertex location="17" id="81"/>
+            <Vertex location="18" id="82"/>
+            <Vertex location="19" id="83"/>
+            <Vertex location="20" id="84"/>
+            <Vertex location="21" id="85"/>
+            <Vertex location="22" id="86"/>
+            <Vertex location="23" id="87"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="0"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+        <Cube id="5" material="1">
+            <Vertex location="0" id="88"/>
+            <Vertex location="1" id="89"/>
+            <Vertex location="2" id="1"/>
+            <Vertex location="3" id="0"/>
+            <Vertex location="4" id="7"/>
+            <Vertex location="5" id="6"/>
+            <Vertex location="6" id="90"/>
+            <Vertex location="7" id="91"/>
+            <Vertex location="8" id="92"/>
+            <Vertex location="9" id="93"/>
+            <Vertex location="10" id="94"/>
+            <Vertex location="11" id="95"/>
+            <Vertex location="12" id="96"/>
+            <Vertex location="13" id="97"/>
+            <Vertex location="14" id="98"/>
+            <Vertex location="15" id="99"/>
+            <Vertex location="16" id="100"/>
+            <Vertex location="17" id="16"/>
+            <Vertex location="18" id="19"/>
+            <Vertex location="19" id="101"/>
+            <Vertex location="20" id="102"/>
+            <Vertex location="21" id="20"/>
+            <Vertex location="22" id="23"/>
+            <Vertex location="23" id="103"/>
+            <SideCube location="0" id="-1"/>
+            <SideCube location="1" id="0"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+        <Cube id="6" material="1">
+            <Vertex location="0" id="3"/>
+            <Vertex location="1" id="2"/>
+            <Vertex location="2" id="104"/>
+            <Vertex location="3" id="105"/>
+            <Vertex location="4" id="106"/>
+            <Vertex location="5" id="107"/>
+            <Vertex location="6" id="5"/>
+            <Vertex location="7" id="4"/>
+            <Vertex location="8" id="108"/>
+            <Vertex location="9" id="109"/>
+            <Vertex location="10" id="110"/>
+            <Vertex location="11" id="111"/>
+            <Vertex location="12" id="112"/>
+            <Vertex location="13" id="113"/>
+            <Vertex location="14" id="114"/>
+            <Vertex location="15" id="115"/>
+            <Vertex location="16" id="17"/>
+            <Vertex location="17" id="116"/>
+            <Vertex location="18" id="117"/>
+            <Vertex location="19" id="18"/>
+            <Vertex location="20" id="21"/>
+            <Vertex location="21" id="118"/>
+            <Vertex location="22" id="119"/>
+            <Vertex location="23" id="22"/>
+            <SideCube location="0" id="0"/>
+            <SideCube location="1" id="-1"/>
+            <SideCube location="2" id="-1"/>
+            <SideCube location="3" id="-1"/>
+            <SideCube location="4" id="-1"/>
+            <SideCube location="5" id="-1"/>
+        </Cube>
+    </Cubes>
+</Root>

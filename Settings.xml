@@ -1,0 +1,21 @@
+<Root>
+    <Setting name="width" value="800"/>
+    <Setting name="height" value="600"/>
+    <Setting name="window" value="Test"/>
+    <Setting name="assetFolder" value="Asset/"/>
+    <Setting name="sceneFolder" value="Scene/"/>
+    <Setting name="modelFolder" value="Model/"/>
+    <Input name="menu" type="keypad">
+        <Key value="27"/>
+    </Input>
+    <Input name="movement" type="keypad">
+        <Key value="122"/>
+        <Key value="113"/>
+        <Key value="115"/>
+        <Key value="100"/>
+        <Key value="97"/>
+        <Key value="119"/>
+    </Input>
+    <Input name="mouseButton" type="mouseButton"/>
+    <Input name="mouseMotion" type="mouseMotion"/>
+</Root>
